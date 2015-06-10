@@ -1,8 +1,9 @@
 # Xtap
 
-This [RubyGem](https://rubygems.org/) adds the #xtap method to Object. This
-method yields self to the provided block, and then returns the value returned
-by calling the block.
+This [RubyGem](https://rubygems.org/) adds the Object#xtap method. It's similar
+to Object#tap in that it yields self to the provided block. However,
+Object#xtap returns the value returned by calling the block rather than
+returning the object passed into the block.
 
 ## Installation
 
@@ -22,12 +23,14 @@ Or install it yourself as:
 
 Here's an example:
 
-    def xform(object)
+    require 'xtap'
+
+    def transform(object)
       'qux'
     end
 
     'foo'
-      .xtap { |s| xform(s) }
+      .xtap { |s| transform(s) }
       .gsub(/qux/, 'baz')
 
 ## Contributing
