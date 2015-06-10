@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.email         = ['Peter.Havens@gmail.com']
   spec.summary       = 'Adds #xtap method to Object.'
   spec.description   = 'Adds #xtap method to Object.'
-  spec.homepage      = ''
+  spec.homepage      = 'https://github.com/Tekhne/xtap'
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files -z`.split("\x0")
