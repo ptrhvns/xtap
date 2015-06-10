@@ -1,7 +1,8 @@
 # Xtap
 
-This Rubygem adds the #xtap method to Object. The #xtap method yields self to
-the provided block, and then returns the value returned by calling the block.
+This [RubyGem](https://rubygems.org/) adds the #xtap method to Object. This
+method yields self to the provided block, and then returns the value returned
+by calling the block.
 
 ## Installation
 
