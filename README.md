@@ -3,7 +3,8 @@
 This [RubyGem](https://rubygems.org/) adds the Object#xtap method. It's similar
 to Object#tap in that it yields self to the provided block. However,
 Object#xtap returns the value returned by calling the block rather than
-returning the object passed into the block.
+returning the object passed into the block. This helps facilitate chaining
+method calls in some circumstances.
 
 ## Installation
 
