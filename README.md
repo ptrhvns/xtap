@@ -1,3 +1,7 @@
+# NOTICE
+
+This gem is made obsolete as of Ruby 2.5 by the `Object#yield_self` method.
+
 # Xtap
 
 This [RubyGem](https://rubygems.org/) adds the Object#xtap method. It's similar
